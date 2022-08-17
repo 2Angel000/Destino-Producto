@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b29e775e16.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Heineken</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          src="https://cdn.worldvectorlogo.com/logos/heineken-14.svg"
+          alt="Logo"
+          id="header-img"
+        />
+      </div>
+      <p id="titulo">Heineken</p>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#detalles">detalles</a></li>
+          <li><a class="nav-link" href="#multimedia">multimedia</a></li>
+          <li><a class="nav-link" href="#precios">precios</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="correo">
+        <h1 class="titulo-c animar">Bienvenido a Heineken</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <fieldset>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingrese su correo"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input type="submit" id="submit" value="Envíar" class="btn" />
+          </fieldset>
+        </form>
+      </section>
+      <div class="container">
+        <section id="detalles">
+          <div class="detalles">
+            <div class="detalles-sup">
+              <h1 class="centrar animar">detalles</h1>
+            </div>
+            <div class="detalles-izquierdo">
+              <p class="bold">
+                Confiable<br /><br /><i
+                  class="fa-solid fa-bottle-droplet fa-2xl"
+                ></i>
+              </p>
+              <div class="linea"></div>
+              <p class="bold">
+                Rentable<br /><br /><i class="fa-solid fa-coins fa-2xl"></i>
+              </p>
+              <div class="linea"></div>
+              <p class="bold">
+                Novedoso<br /><br /><i class="fa-solid fa-lemon fa-2xl"></i>
+              </p>
+              <div class="linea"></div>
+              <p class="bold">
+                seguro<br /><br /><i class="fa-solid fa-lock fa-2xl"></i>
+              </p>
+              <div class="linea"></div>
+              <p class="bold">
+                Empleos<br /><br /><i class="fa-solid fa-briefcase fa-2xl"></i>
+              </p>
+              <div class="linea"></div>
+            </div>
+            <div class="detalles-derecho">
+              <p class="text-icon">
+                Nuestra Empresa es un lugar donde nuestros productos son además
+                de fiables, seguros de consumir
+              </p>
+              <p class="text-icon">
+                Nuestros productos son a precios muy bajos, lo que nos da la
+                oportunidad de hacer satisfacer su antojo de una forma economica
+              </p>
+              <p class="text-icon">
+                Productos nunca antes vistos en latinoamerica pero con el toque
+                que solo <span class="marca bold">Heineken</span> les puede dar
+              </p>
+              <p class="text-icon">
+                Nuestros productos y personal cuentan con las medidas de
+                cuidados correspondientes además de tratarlos estrictamente
+                conforme a las normas de salud del consumidor
+              </p>
+              <p class="text-icon">
+                Generando empleos desde tiempo inmemorables
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="multimedia">
+          <h2 class="titulo-m animar">campaña publicitaria</h2>
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/McZVU5QWnHc?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              id="video"
+            ></iframe>
+          </div>
+        </section>
+        <section id="precios">
+          <div class="padre">
+            <div class="contenedor">
+              <div class="t">
+                <h3 class="animar">Jarrón</h3>
+              </div>
+              <div class="cuerpo">
+                <h4>$170.00</h4>
+                <p>1.5 L</p>
+              </div>
+            </div>
+            <div class="contenedor">
+              <div class="t">
+                <h3 class="animar">Cerveza</h3>
+              </div>
+              <div class="cuerpo">
+                <h4>$25.00</h4>
+                <p>355 ml</p>
+              </div>
+            </div>
+            <div class="contenedor">
+              <div class="t">
+                <h3 class="animar">Lata</h3>
+              </div>
+              <div class="cuerpo">
+                <h4>$22.00</h4>
+                <p>300 ml</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

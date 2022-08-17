@@ -1,0 +1,36 @@
+
+Puede ver un vídeo de producto incrustado con id="video"
+
+Su página de aterrizaje tiene un elemento de formulario 
+con un id="form" correspondiente
+
+Dentro del formulario, hay un campo de entrada con 
+id="email" donde se puede introducir una dirección
+ de correo electrónico
+
+El campo de entrada #email debe tener un texto de 
+marcador de posición para que los usuarios sepan 
+para qué sirve el campo
+
+El campo de entrada #email utiliza la validación 
+HTML5 para confirmar que el texto introducido es 
+una dirección de correo electrónico
+
+Dentro del formulario, hay una entrada de envío
+ con el correspondiente id="submit"
+
+Al hacer clic en el elemento #submit, el correo 
+electrónico se envía a una página estática 
+(utilice esta URL simulada: https://www.freecodecamp.com/email-submit)
+
+La barra de navegación debe estar siempre en la
+ parte superior de la ventana gráfica
+
+La página de destino del producto debe tener al
+ menos una consulta de medios
+
+La página de destino del producto debe utilizar
+ CSS flexbox al menos una vez
+
+Traducción realizada con la versión gratuita del 
+traductor www.DeepL.com/Translator
